@@ -1,20 +1,14 @@
-#  Phishing Email Analysis - Cyber Security Internship Task 2
--------------
+# Phishing Email Analysis - Cyber Security Internship Task 2
+
 ## Objective
--------------
 
 To analyze a suspicious email sample and identify key phishing characteristics using basic cyber security analysis techniques and tools.
 
 ---
 
-
-
----
--------------------------
 ## Sample Email Analyzed
--------------------------
-From:support@paypaypal[.]net
-To:john[.]doe@mybusiness[.]com
+From:<support@paypaypal[.]net>
+To:<john[.]doe@mybusiness[.]com>
 Subject: Update your account
 Sender: PayPal (spoofed)
 Reference ID: PP-563D-1E36-4997-92D1
@@ -23,10 +17,8 @@ Reference ID: PP-563D-1E36-4997-92D1
 We detected unusual activity on your PayPal account. Log into PayPal to verify your identity and update your password and security questions.
 ...
 Verify your identity now."
----
-----------------------------------
 ## ANALYSIS OF PHISHING INDICATORS
-----------------------------------
+
 ### Indicator 1: Sender Email Address (Spoofing)
 
 - **Observation:** The sender's email address is `service-update@paypal-secure-alert.com`.
@@ -76,9 +68,9 @@ Verify your identity now."
 - **Analysis:** While this version uses a name, it's still potentially forged. Real emails from PayPal often contain precise, personalized account references and include security footers. Also, the tone is **overly formal and robotic**, often with slight awkward phrasing—something that typically differs from real corporate communication.
 
 ---
-----------------------
+
 ## SUMMARY OF FINDINGS
-----------------------
+
 This email is **definitively a phishing attempt**. It exhibits multiple high-risk indicators and social engineering tactics designed to manipulate the user into clicking a malicious link and surrendering personal account credentials.
 
 **Key Phishing Traits Found:**
@@ -90,17 +82,15 @@ This email is **definitively a phishing attempt**. It exhibits multiple high-ris
 - [x] **Generic or Forged Greeting** – no strong personalization, potentially mass-sent.
 
 ---
--------------
+
 ## TOOLS USED
--------------
+
 - **Email Client / Text Viewer** – to examine email content
 - **Online Header Analyzer (e.g., MXToolbox)** – to inspect technical origin and authentication
 - **Web Browser Hover Technique** – to detect mismatched URL destinations
-
 ---
-----------
-## Outcome
-----------
-- Demonstrated ability to identify phishing patterns.
-- Understood psychological manipulation (social engineering) used in phishing.
-- Learned best practices in verifying emails via header and link inspection.
+
+## OUTCOME
+- Demonstrated the ability to spot spoofed domains, mismatched URLs, and psychological manipulation techniques.  
+- Reinforced best practices for verifying sender authenticity via header analysis.  
+- Highlighted how urgency and generic salutations are leveraged in large-scale phishing campaigns.
